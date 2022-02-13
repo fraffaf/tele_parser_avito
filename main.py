@@ -1,8 +1,8 @@
 import telebot
 import tokenidtelegram
 
-token.init()
-bot = telebot.TeleBot(token.token)
+tokenidtelegram.init()
+bot = telebot.TeleBot(tokenidtelegram.tokenid)
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
