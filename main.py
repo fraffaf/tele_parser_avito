@@ -1,5 +1,5 @@
 import telebot
-import token
+import tokenidtelegram
 
 token.init()
 bot = telebot.TeleBot(token.token)
